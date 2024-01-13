@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+position: relative;
+
+}
+
+img {
+    position: absolute;
+    top: 120px;  /* Adjust the top position */
+    left: 700px; /* Adjust the left position */
+    width: 250px; /* Adjust the width */
+    height: auto; /* Maintain the aspect ratio */
+    /* You can also use max-width or max-height for responsiveness */
+    border-radius: 10%;
+}
+
+.moved-h1 {
+color: #007FDB;
+font-family: Inter;
+font-size: 76px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    position: relative;
+    left:250px;
+    top: 200px; }
+
+.time{
+ position: absolute;
+ top:280px;
+ left:835px;
+ color: #ffffff;
+font-family: Russo One;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
+.date{
+ position: absolute;
+top:255px;
+ left:880px;
+ color: #ffffff;
+font-family: Russo One;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.input {
+   position:absolute;
+   top:340px;
+   left: 700px;
+    padding: 12px 12px 13px 14px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow:hidden;
+}
+input::placeholder {
+    transform: translatex(13%);
+    white-space: nowrap;
+    transition: transform 0.3s ease-out; 
+}
+
+.checkbox{
+    top:348px;
+    left:705px;
+    position:absolute;
+    width: 24px;
+height: 24px;
+}
+
+.add{
+    color: green;
+    position: absolute;
+    top:350px;
+    left:800px;
+    width: 16px;
+height: 16px;
+}
+
+.btn{
+    position: absolute;
+     top:340px;
+    left:895px;
+    padding: 10px 20px;
+    font-size: 16px;
+      border: none;
+      cursor: pointer;
+      background-color: #20EEB0;
+      color: #fff;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+}
+
+.container-note{
+    position: absolute;
+    top:370px;
+    left:700px;
+    color: #0D0D0D;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.time1{
+    margin-top: 270px;
+    margin-left: 700px;
+    color: #888;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn1{
+    position: absolute;
+    top:400px;
+    left:890px;
+}
+
+.delete1{
+    position: absolute;
+    top:400px;
+    left:920px;
+}
+
+.coby{
+ position: absolute;
+ top:410px;
+ left:699px;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.time2{
+position: absolute;
+ top:435px;
+ left:699px; color: #888;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.btn2{
+    position: absolute;
+ top:435px;
+ left:890px; 
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+
+}
+
+.delete2{
+ position: absolute;
+ top:435px;
+ left:920px;
+}
+
+.txt1{
+    position: absolute;
+ top:450px;
+ left:699px;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.time3{
+    position: absolute;
+ top:475px;
+ left:699px; color: #888;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.btn3{
+  position: absolute;
+  top:475px;
+  left:890px;
+}
+
+.delete3{
+    position: absolute;
+    top:475px;
+    left:920px;
+}
+.txt2{
+    position: absolute;
+    top:490px;
+    left:699px;
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.time4{
+position: absolute;
+ top:515px;
+ left:699px;
+color: #888;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.btn4{
+    position: absolute;
+    top:515px;
+    left:890px;
+}
+
+.delete4{
+    position: absolute;
+    top:515px;
+    left:920px;
+}
